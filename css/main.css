@@ -1,0 +1,79 @@
+html {
+  background-color: lightgray;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 2em;
+  font-size: 20px;
+  height: 100%;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+header,
+footer {
+  height: 80px;
+  width: 100%;
+
+}
+
+main {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.about,
+.passion,
+.fun-fact {
+  line-height: 1.5em;
+  font-size: 1em;
+  width: 30%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fun-fact,
+.passion {
+  border-left: 1px black solid;
+  padding-left: 15px;
+}
+
+img {
+  display: block;
+  width: 50px;
+  height: auto;
+}
+
+span {
+  font-weight: bold;
+  color: darkcyan;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: darkcyan;
+}
+h2 {
+  font-weight: normal;
+}
